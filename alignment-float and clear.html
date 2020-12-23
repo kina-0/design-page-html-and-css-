@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment in CSS</title>
+    <style>
+        *{box-sizing: border-box;}
+        .container{width:900px;
+        border:4px solid purple;
+         margin:auto; /*this will place the element box in center by giving auto(default) value from y and x-axis*/
+        /*margin:33px auto;  /*this will give 33px of margin from the y-axis and auto(defualt) margin from the x-axis.*/}
+        .item{border:3px solid gray;
+        margin:12px 3px;
+        padding:12px 13px;
+        background-color: lavenderblush;}
+
+        #fruits{float:left;
+                width:48%;}
+        #computer{float:left;
+                  width:48%;}
+         #stationary{/*float:left; */
+                  width:100%;}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class="item">
+            <h3>fruits seller</h3>
+            <p#fruits.para" >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, odio similique. Inventore cum itaque doloribus delectus iure reprehenderit doloremque libero esse nemo facere.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer seller</h3>
+            <p#computer.para" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque in excepturi voluptates repellendus. Et eveniet quae omnis. Commodi, corporis officiis.   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem deserunt quisquam voluptas numquam sapiente, enim eum aliquam distinctio ea explicabo perferendis fugiat. Explicabo?</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary seller</h3>
+            <p#stationary.para" >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, impedit?  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto laudantium iure nobis nisi aliquid repudiandae obcaecati similique molestiae numquam. Pariatur illum porro excepturi.</p>
+        </div>
+    </div>
+</body>
+</html>
